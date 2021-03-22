@@ -8,7 +8,7 @@ for (var i = 1; i<= 300; i++) {
     name: faker.commerce.productName(),
     description: faker.lorem.sentences(),
     price: faker.commerce.price(),
-    imageUrl: "https://source.unsplash.com/1600x900/?product",
+    imageUrl: "https://source.unsplash.com/1600x900/?products",
     quantity: faker.random.number()
   });
 }
